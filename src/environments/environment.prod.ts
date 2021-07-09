@@ -1,5 +1,5 @@
 export const environment = {
-  production: false,
+  production: true,
   host: "https://polo-nord-backend.azurewebsites.net/api/",
   endpoint: {
     'articoli': 'articoli/',
