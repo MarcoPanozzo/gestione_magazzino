@@ -1,4 +1,4 @@
-export class FornitoriDto {
+export interface FornitoriDto {
     fornitoreId: number;
     nome: string;
 }

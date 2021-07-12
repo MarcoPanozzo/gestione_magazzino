@@ -1,6 +1,6 @@
 import { ETipoGiacenza } from "../enumerations/ETipoGiacenza";
 
-export class EntityRequestFilter {
+export interface EntityRequestFilter {
     categoria: string;
     titolo: string;
     prezzo: number[];
